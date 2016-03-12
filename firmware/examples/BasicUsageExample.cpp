@@ -1,10 +1,3 @@
-Photon IR Transmitter   COPY EDIT
-========
-
-Simple IR Transmitter library for the Particle Photon. Full credit goes to [AnalysIR](https://www.analysir.com/blog/2015/09/01/simple-infrared-pwm-on-arduino-part-3-hex-ir-signals/).
-
-### Example usage
-```
 #include <IRTransmitter/IRTransmitter.h>
 
 #define IR_PIN D6
@@ -24,4 +17,3 @@ IRTransmitter transmitter(IR_PIN, LED_PIN);
 void loop() {
     transmitter.Transmit(data, sizeof(data) / sizeof(data[0]));
 }
-```
