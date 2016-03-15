@@ -1,5 +1,5 @@
 #include "application.h"
-#include "IRTransmitter4.h"
+#include "IRTransmitter3.h"
 
 const int IRTransmitter::duty_cycle = 50;
 const int IRTransmitter::carrier_frequency = 34000;
