@@ -1,8 +1,8 @@
 #include "application.h"
 #include "IRTransmitter3.h"
 
-const int IRTransmitter::duty_cycle = 35;
-const int IRTransmitter::carrier_frequency = 38000;
+const int IRTransmitter::duty_cycle = 50;
+const int IRTransmitter::carrier_frequency = 30000;
 const int IRTransmitter::period = (1000000 + carrier_frequency / 2) / carrier_frequency;
 const int IRTransmitter::high_time = period * duty_cycle / 100;
 const int IRTransmitter::low_time = period - high_time;
